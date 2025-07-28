@@ -161,20 +161,36 @@ const FlipCard = ({ video, title, description, github }) => {
         >
           <h2 className="text-3xl font-semibold mb-2">{title}</h2>
           <p className="text-lg mb-4 line-clamp-4">{description}</p>
-          {github ? (
-            <motion.a
-              href={github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-3 py-1 transition bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold rounded-lg shadow hover:shadow-lg"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <FaGithub /> View Code
-            </motion.a>
-          ) : (
-            <span className="text-xs text-gray-300">Code is confidential/private</span>
-          )}
+
+          <div className="flex flex-col gap-2">
+            {github ? (
+              <motion.a
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-3 py-1 bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold rounded-lg shadow hover:shadow-lg"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <FaGithub /> View Code
+              </motion.a>
+            ) : (
+              <span className="text-xs text-gray-300">Code is confidential/private</span>
+            )}
+
+            {demo && (
+              <motion.a
+                href={demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1 bg-gradient-to-r from-green-400 to-emerald-500 text-white font-semibold rounded-lg shadow hover:shadow-lg"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                🌐 Live Demo
+              </motion.a>
+            )}
+          </div>
         </div>
       </motion.div>
     </motion.div>
