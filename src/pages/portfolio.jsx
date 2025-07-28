@@ -9,6 +9,7 @@ import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import Footer from './Footer';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import ExperienceEducation from './WorkExperienceAndEducation';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -86,7 +87,9 @@ const Portfolio = () => {
       <Intro onViewWorkClick={scrollToProjects} />
       <About />
       <TechSkills />
+      <ExperienceEducation />
       <Projects ref={projectsRef} />
+
       <Contact />
       <Footer />
     </div>

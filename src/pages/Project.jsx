@@ -265,7 +265,7 @@ const Projects = () => {
       video: FarmVilla,
       title: 'Farm Villa Design',
       description:
-        'UI design of a farm villa landing page created in React JS, focusing on modern aesthetics and responsiveness.',
+        'UI design of a farm villa landing page created in React JS, focusing on modern aesthetics and responsiveness. (Not Responsive)',
       github: 'https://github.com/umer62490/farmhouse-design/tree/master',
       demo: 'https://farmhouse-design.vercel.app/' 
     },
@@ -274,7 +274,7 @@ const Projects = () => {
       video: ShoesWebDesign,
       title: 'Shoes Website',
       description:
-        'Dynamic e-commerce site for shoes, leveraging Redux for state management, GSAP & Framer Motion for intricate animations, and React-Particles for visual effects.',
+        'Dynamic e-commerce site for shoes, leveraging Redux for state management, GSAP & Framer Motion for intricate animations, and React-Particles for visual effects. (Not Responsive)',
       github: 'https://github.com/umer62490/Shoes-Store/tree/master',
       demo: 'https://shoes-store-gray-two.vercel.app/' 
     },
@@ -283,7 +283,7 @@ const Projects = () => {
       video: MedicalWebsite,
       title: 'Medical Website & Admin',
       description:
-        'A comprehensive medical website built with React, featuring an intuitive admin panel for seamless product management.',
+        'A comprehensive medical website built with React, featuring an intuitive admin panel for seamless product management. (Not Responsive)',
       github: 'https://github.com/umer62490/medicine-ecommerce/tree/master',
       demo: 'https://medicine-ecommerce-psi.vercel.app/' 
     },
@@ -292,7 +292,7 @@ const Projects = () => {
       video: WeatherApp,
       title: 'Weather App',
       description:
-        'React-based weather application integrating a country API to provide real-time weather data with dynamic background visuals based on current conditions.',
+        'React-based weather application integrating a country API to provide real-time weather data with dynamic background visuals based on current conditions. (Responsive)',
       github: 'https://github.com/umer62490/weather-api/tree/master',
       demo: 'https://weather-api-two-beta.vercel.app/' 
     },
@@ -326,7 +326,7 @@ const Projects = () => {
       video: KanbanBoard,
       title: 'Kanban Task Manager',
       description:
-        'An interactive Kanban board built with React, featuring category filtering, calendar deadline view, and intuitive drag & drop functionality for task management.',
+        'An interactive Kanban board built with React, featuring category filtering, calendar deadline view, and intuitive drag & drop functionality for task management. (Not Responsive)',
       github: 'https://github.com/umer62490/kanban-board/tree/master',
       demo: 'https://kanban-board-gamma-sooty.vercel.app/' 
     },
