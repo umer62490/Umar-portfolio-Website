@@ -10,6 +10,7 @@ import Footer from './Footer';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ExperienceEducation from './WorkExperienceAndEducation';
+import GitHubStats from './GithubChart';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -88,6 +89,7 @@ const Portfolio = () => {
       <About />
       <TechSkills />
       <ExperienceEducation />
+      <GitHubStats />
       <Projects ref={projectsRef} />
 
       <Contact />
