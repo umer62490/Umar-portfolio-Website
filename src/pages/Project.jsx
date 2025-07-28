@@ -116,7 +116,7 @@ const BouncingText = ({ text, disableBounce = false }) => {
 };
 
 // FlipCard Component
-const FlipCard = ({ video, title, description, github }) => {
+const FlipCard = ({ video, title, description, github,demo }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
@@ -183,7 +183,7 @@ const FlipCard = ({ video, title, description, github }) => {
                 href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-3 py-1 bg-gradient-to-r from-green-400 to-emerald-500 text-white font-semibold rounded-lg shadow hover:shadow-lg"
+                className="px-3 py-1 bg-gradient-to-r from-sky-400 to-blue-500 text-white font-semibold rounded-lg shadow hover:shadow-lg"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -354,6 +354,7 @@ const Projects = () => {
             title={card.title}
             description={card.description}
             github={card.github}
+            demo={card.demo}
           />
         ))}
       </div>
