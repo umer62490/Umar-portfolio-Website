@@ -16,6 +16,7 @@ const GitHubStats = () => {
       viewport={{  amount: 0.3 }}
       variants={fadeIn}
     >
+      
       <motion.h2
         className="text-5xl font-bold mb-6 text-black"
         variants={fadeIn}

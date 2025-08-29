@@ -73,6 +73,7 @@ import Ndis from '../assets/videos/ndis-askai.mp4';
 import KanbanBoard from '../assets/videos/kanban-board.mp4';
 import MedicalWebsite from '../assets/videos/medical-usal.mp4';
 import DashboardDesign from '../assets/videos/dashboard-design.mp4';
+import YoutubeReplica from '../assets/videos/Youtube Replica - Google Chrome 2025-08-30 02-32-42.mp4'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -329,6 +330,15 @@ const Projects = () => {
         'An interactive Kanban board built with React, featuring category filtering, calendar deadline view, and intuitive drag & drop functionality for task management. (Not Responsive)',
       github: 'https://github.com/umer62490/kanban-board/tree/master',
       demo: 'https://kanban-board-gamma-sooty.vercel.app/' 
+    },
+    {
+      id: 9,
+      video: YoutubeReplica,
+      title: 'Youtube Replica',
+      description:
+        'I make a Youtube replica where user can search any video and watch any video and its save in history and you can watch video comments , and we have also suggestion option while searching . I basically  use youtube apis for this process. (Not Responsive)',
+      github: 'https://github.com/umer62490/youtube-replica',
+      demo: 'https://youtube-replica-zeta.vercel.app/' 
     },
   ];
 
