@@ -69,10 +69,10 @@ import FarmVilla from '../assets/videos/farm-villa-practice-design.mp4';
 import ShoesWebDesign from '../assets/videos/shoes-website.mp4';
 import TaxNTips from '../assets/videos/tax-N-Tips-about-page.mp4';
 import WeatherApp from '../assets/videos/weather-app.mp4';
-import Ndis from '../assets/videos/ndis-askai.mp4';
+// import Ndis from '../assets/videos/ndis-askai.mp4';
 import KanbanBoard from '../assets/videos/kanban-board.mp4';
 import MedicalWebsite from '../assets/videos/medical-usal.mp4';
-import DashboardDesign from '../assets/videos/dashboard-design.mp4';
+// import DashboardDesign from '../assets/videos/dashboard-design.mp4';
 import YoutubeReplica from '../assets/videos/Youtube Replica - Google Chrome 2025-08-30 02-32-42.mp4'
 
 gsap.registerPlugin(ScrollTrigger);
@@ -297,23 +297,23 @@ const Projects = () => {
       github: 'https://github.com/umer62490/weather-api/tree/master',
       demo: 'https://weather-api-two-beta.vercel.app/' 
     },
-    {
-      id: 5,
-      video: DashboardDesign,
-      title: 'Dashboard Design',
-      description:
-        'A React-based dashboard interface meticulously crafted from Figma designs during an internship. (Code is confidential)',
-      github: '',
-       demo: 'https://kdys-design1-xd.vercel.app/' 
-    },
-    {
-      id: 6,
-      video: Ndis,
-      title: 'NDIS Chatbot Integration',
-      description:
-        'Seamless chatbot integration using an external API, developed with Next.js and TypeScript for a National Disability Insurance Scheme project. (Code is private)',
-      github: '',
-    },
+    // {
+    //   id: 5,
+    //   video: DashboardDesign,
+    //   title: 'Dashboard Design',
+    //   description:
+    //     'A React-based dashboard interface meticulously crafted from Figma designs during an internship. (Code is confidential)',
+    //   github: '',
+    //    demo: 'https://kdys-design1-xd.vercel.app/' 
+    // },
+    // {
+    //   id: 6,
+    //   video: Ndis,
+    //   title: 'NDIS Chatbot Integration',
+    //   description:
+    //     'Seamless chatbot integration using an external API, developed with Next.js and TypeScript for a National Disability Insurance Scheme project. (Code is private)',
+    //   github: '',
+    // },
     {
       id: 7,
       video: TaxNTips,
